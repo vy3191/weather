@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2  text-center">
+      <h1 class="lead">
+        Local Weather App
+      </h1>
+    </div>
+  </div>
+  <div class="row text-center inputDiv">
+     <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+    <div class="searh-wrapper">
+      <div class="input-holder">
+          <input class='search-input' type="text" name="search" placeholder="City or Zipcode..">
+        </div>
+        </div>
+       </div>
+   </div> 
+    <div class="weather-card text-center">
+    <!-- <div class="row">
+        <div class="col-md-6 col-md-offset-4 hidden-xs hidden-sm desktop">
+          <div class="temperatureCF">
+             <a  href="#" class="btn btn-success">
+              <span class='changeTemp'>Change To &nbsp; &#8451;</span>
+             </a>
+          </div>
+        </div>      
+      </div> -->
+
+        <div class="row ">
+       <div class="col-lg-6 col-md-12">
+           <div class="left">
+                <div id='temperature'>
+                  <span class='temperature'></span>
+                      <div class="temperatureCF">
+                     <a  href="#" class="btn btn-success">
+                      <span class='changeTemp'>Change To &nbsp; &#8451;</span>
+                     </a>
+                            </div>
+                    <div class="image">
+                        <span class='icon'>
+                          
+                        </span>
+                    </div>
+                </div>
+            <div class="w-summary"></div>
+              <div class="w-folio">
+                    <strong>Wind:&nbsp;</strong> <span id="windSpeed"></span>&nbsp;miles/hour</br> 
+                    <strong>Humidity:&nbsp;</strong><span class="humidity"></span>%
+              </div>
+                <div class="des">
+                <span class='description'> </span>
+                </div>
+      </div>
+       </div>
+      <div class="row">
+        <div class="col-lg-8 col-md-12 col-md-offset-4">
+          <div class="location">
+            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+            <strong><span id='location'></span></strong>
+            <strong><span id='region'></span></strong>
+            <strong><span id='country'></span></strong>
+
+          </div>
+        </div>
+      </div>  
+        </div>
+    </div>
+    <!-- <div class="row mobile">
+        <div class="col-xs-4 col-xs-offset-3 visible-xs visible-sm">
+          <div class="temperatureCF">
+             <a  href="#" class="btn btn-success">
+              <span class='changeTemp'>Change To &nbsp; &#8451;</span>
+             </a>
+          </div>
+        </div>      
+      </div> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/script.js'></script>
+</body>
+</html>

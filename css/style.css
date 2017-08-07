@@ -1,0 +1,101 @@
+body {
+  margin:0px;
+  padding:0px;
+  background: url(https://s19.postimg.org/toryx3jj7/plain-white-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*-------------------
+Search styles
+-----------------------*/
+.inputDiv {
+  margin-top:0;
+  padding: 0;
+}
+
+ .search-wrapper, .input-holder {
+  padding:10px 15px;
+  border:none;
+  background: transparent;
+ }
+ .search-input {
+    width: 250px;
+    color: #fff;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border:none;
+    border-radius: 45px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,.5);
+    background-image: url('https://s19.postimg.org/r1kw5pk0z/mag.png');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 12px 8px; 
+    background-repeat: no-repeat;
+    padding: 15px 20px 15px 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search-input:focus {
+    width: 100%;
+    outline:none;
+    
+}
+
+::-webkit-input-placeholder {
+  color: #ADD8E6;
+}
+::-moz-placeholder { 
+  color: #ADD8E6;
+}
+:-ms-input-placeholder {
+  color:#ADD8E6;
+}
+:-moz-placeholder { 
+  color: #ADD8E6;
+}
+h1.lead {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+
+}
+.app {
+  height: 325px;
+  width:60%;
+  margin: 50px auto;
+  color: #f00;
+  background-color: #ff0;
+    box-shadow: 10px 10px 5px #888888;
+  padding: 30px 25px;
+  margin: 45px 30px;
+}
+/** {
+  border: 1px solid red;
+}*/
+
+.weather-card {
+   background: rgba(0,0,0,.1);
+   padding: 25px 35px;
+}
+.changeTemp {
+  padding: 10px 12px;
+}
+.temperature {
+  font-size: 45px;
+}
+.icon img  {
+  height: 80px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.mobile,.temperatureCF {
+  margin: 5px 0 35px 0;
+}
+
+
+
